@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(120deg,#2980b9,#8e44ad);
+        }
+        .a {
+            padding: 50px 50px 50px 0px;
+            margin-left: 50px;
+        }
+        .c {
+            margin-left: 50px;
+            width: 1060px;
+        }
+        .b {
+            margin-right: 100px;
+            float: right;
+            background-color: rgb(59, 240, 186);
+            color: white;
+            width: 180px;
+            height: 45px;
+            text-align: center;
+            border: none;
+            border-radius: 4px;
+
+        }
+        .s{
+            width: 150px;border-radius:30px;margin-left:1015px;height:50px;
+        }
+        .n{
+            width: 150px;border-radius:30px;margin-left:815px;height:50px;
+        }
+    </style>
+</head>
+    <body>
+        <div class="dropdown a">
+            <div class="btn-group">
+                <select class="custom-select b">
+                    <option selected hidden style="background-color: white; color:black;">-- Subject --</option>
+                    <option value="1" style="background-color: white; color:black;">Subject 1</option>
+                    <option value="2" style="background-color: white; color:black;">Subject 2</option>
+                    <option value="3" style="background-color: white; color:black;">Subject 3</option>
+                </select>
+            </div>
+            <input class="form-control"
+                style="margin-right:100px; float:right; margin-right: 200px; float:right; width: 180px; height: 45px; text-align: center;"
+                type="text" placeholder="#Keyword">
+            <select class="custom-select b">
+                <option selected hidden style="background-color: white; color:black;">-- Difficulty --</option>
+                <option value="1" style="background-color: white; color:black;">Easy</option>
+                <option value="2" style="background-color: white; color:black;">Moderate</option>
+                <option value="3" style="background-color: white; color:black;">Hard</option>
+            </select>
+        </div>
+        <h5 style="margin-left: 51px; padding-bottom: 1px;">Question</h5>
+        <form>
+            <div class="form-group c">
+                <textarea class="form-control" placeholder="Type your question here..." id="exampleFormControlTextarea1"
+                    rows="6"></textarea>
+            </div>
+            <input class="form-control c" style="width:320px;float:right;margin-bottom:14px;margin-right:426px;" type="text"
+                placeholder="Answer">
+            <input class="form-control c" style="width:320px;margin-bottom:14px;" type="text" placeholder="Option 1">
+            <input class="form-control c" style="width:320px;margin-bottom:14px;" type="text" placeholder="Option 2">
+            <input class="form-control c" style="width:320px;margin-bottom:14px;" type="text" placeholder="Option 3">
+            <input class="form-control c" style="width:320px;margin-bottom:14px;" type="text" placeholder="Option 4">
+            <div class="btn-group">
+                <button type="button" class="btn n btn-outline-primary" onclick="Page_2.html"><img src="add-button.png" width="35px">New</button>
+                <button type="button" class="btn s btn-outline-success">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
